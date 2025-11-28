@@ -17,7 +17,7 @@ if hist_button:
         
     st.plotly_chart(fig, use_container_width=True)
 
- scatter_button = st.button('Criar gráfico de dispersão') # criar um botão    
+scatter_button = st.button('Criar gráfico de dispersão') # criar um botão    
 
 if scatter_button:
     st.write('Criando um gráfico de dispersão: Quilometragem vs Preço')
